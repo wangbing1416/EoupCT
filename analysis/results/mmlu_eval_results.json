@@ -1,0 +1,1330 @@
+[
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6148148148148148,
+      "global_facts": 0.39,
+      "marketing": 0.8803418803418803,
+      "philosophy": 0.7266881028938906,
+      "formal_logic": 0.6031746031746031,
+      "prehistory": 0.7746913580246914,
+      "high_school_mathematics": 0.5,
+      "high_school_physics": 0.6622516556291391,
+      "high_school_computer_science": 0.83
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6847515705311251,
+    "category_acc": {
+      "STEM": 0.6103646833013435,
+      "humanities": 0.7266754270696452,
+      "other (business, health, misc.)": 0.6993603411513859
+    },
+    "subcategory_acc": {
+      "math": 0.5,
+      "health": 0.6148148148148148,
+      "physics": 0.6622516556291391,
+      "business": 0.8803418803418803,
+      "computer science": 0.83,
+      "philosophy": 0.6910755148741419,
+      "other": 0.39,
+      "history": 0.7746913580246914
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.5160133838653564,
+          "B": 0.10986559092998505,
+          "C": 0.12066373974084854,
+          "D": 0.253457248210907
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.03513012081384659,
+          "B": 0.9347779154777527,
+          "C": 0.005180991720408201,
+          "D": 0.02491098642349243
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9975724816322327,
+          "B": 0.0005453137564472854,
+          "C": 0.0011454453924670815,
+          "D": 0.0007366719073615968
+        }
+      }
+    ],
+    "training_task_name": "before_training",
+    "task_index": -1,
+    "global_step": 0,
+    "timestamp": 1775011538
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6518518518518519,
+      "global_facts": 0.37,
+      "marketing": 0.8760683760683761,
+      "philosophy": 0.6977491961414791,
+      "formal_logic": 0.6031746031746031,
+      "prehistory": 0.7685185185185185,
+      "high_school_mathematics": 0.46296296296296297,
+      "high_school_physics": 0.6225165562913907,
+      "high_school_computer_science": 0.86
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6721873215305539,
+    "category_acc": {
+      "STEM": 0.5854126679462572,
+      "humanities": 0.7122207621550591,
+      "other (business, health, misc.)": 0.7036247334754797
+    },
+    "subcategory_acc": {
+      "math": 0.46296296296296297,
+      "health": 0.6518518518518519,
+      "physics": 0.6225165562913907,
+      "business": 0.8760683760683761,
+      "computer science": 0.86,
+      "philosophy": 0.6704805491990846,
+      "other": 0.37,
+      "history": 0.7685185185185185
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.31118568778038025,
+          "B": 0.12186206132173538,
+          "C": 0.29233190417289734,
+          "D": 0.2746204137802124
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.004876772873103619,
+          "B": 0.9892862439155579,
+          "C": 0.0009602935169823468,
+          "D": 0.004876772873103619
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9984086155891418,
+          "B": 0.000379524048184976,
+          "C": 0.0008552705985493958,
+          "D": 0.0003565298393368721
+        }
+      }
+    ],
+    "training_task_name": "task1290_xsum_summarization",
+    "task_index": 0,
+    "global_step": 2500,
+    "timestamp": 1775012529
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6222222222222222,
+      "global_facts": 0.37,
+      "marketing": 0.8803418803418803,
+      "philosophy": 0.7106109324758842,
+      "formal_logic": 0.6190476190476191,
+      "prehistory": 0.7561728395061729,
+      "high_school_mathematics": 0.4703703703703704,
+      "high_school_physics": 0.6158940397350994,
+      "high_school_computer_science": 0.86
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6721873215305539,
+    "category_acc": {
+      "STEM": 0.5873320537428023,
+      "humanities": 0.7148488830486203,
+      "other (business, health, misc.)": 0.697228144989339
+    },
+    "subcategory_acc": {
+      "math": 0.4703703703703704,
+      "health": 0.6222222222222222,
+      "physics": 0.6158940397350994,
+      "business": 0.8803418803418803,
+      "computer science": 0.86,
+      "philosophy": 0.6842105263157895,
+      "other": 0.37,
+      "history": 0.7561728395061729
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.16195620596408844,
+          "B": 0.021918388083577156,
+          "C": 0.2508426904678345,
+          "D": 0.5652827024459839
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.010245278477668762,
+          "B": 0.981730580329895,
+          "C": 0.004012108780443668,
+          "D": 0.004012108780443668
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9989905953407288,
+          "B": 0.0001909479033201933,
+          "C": 0.000588160939514637,
+          "D": 0.0002303271321579814
+        }
+      }
+    ],
+    "training_task_name": "task1510_evalution_relation_extraction",
+    "task_index": 1,
+    "global_step": 2500,
+    "timestamp": 1775013404
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6444444444444445,
+      "global_facts": 0.37,
+      "marketing": 0.8888888888888888,
+      "philosophy": 0.6945337620578779,
+      "formal_logic": 0.6349206349206349,
+      "prehistory": 0.7438271604938271,
+      "high_school_mathematics": 0.48148148148148145,
+      "high_school_physics": 0.5894039735099338,
+      "high_school_computer_science": 0.86
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6704740148486579,
+    "category_acc": {
+      "STEM": 0.5854126679462572,
+      "humanities": 0.7056504599211564,
+      "other (business, health, misc.)": 0.7078891257995735
+    },
+    "subcategory_acc": {
+      "math": 0.48148148148148145,
+      "health": 0.6444444444444445,
+      "physics": 0.5894039735099338,
+      "business": 0.8888888888888888,
+      "computer science": 0.86,
+      "philosophy": 0.6773455377574371,
+      "other": 0.37,
+      "history": 0.7438271604938271
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "C",
+        "probs": {
+          "A": 0.1268557459115982,
+          "B": 0.026590406894683838,
+          "C": 0.5017241835594177,
+          "D": 0.34482964873313904
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.012304125353693962,
+          "B": 0.9774377346038818,
+          "C": 0.005129122640937567,
+          "D": 0.005129122640937567
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9989737272262573,
+          "B": 0.00031481453333981335,
+          "C": 0.0005881510442122817,
+          "D": 0.00012328315642662346
+        }
+      }
+    ],
+    "training_task_name": "task1572_samsum_summary",
+    "task_index": 2,
+    "global_step": 400,
+    "timestamp": 1775013720
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6814814814814815,
+      "global_facts": 0.39,
+      "marketing": 0.8675213675213675,
+      "philosophy": 0.6816720257234726,
+      "formal_logic": 0.6349206349206349,
+      "prehistory": 0.7592592592592593,
+      "high_school_mathematics": 0.45925925925925926,
+      "high_school_physics": 0.6158940397350994,
+      "high_school_computer_science": 0.88
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6721873215305539,
+    "category_acc": {
+      "STEM": 0.5854126679462572,
+      "humanities": 0.7069645203679369,
+      "other (business, health, misc.)": 0.7121535181236673
+    },
+    "subcategory_acc": {
+      "math": 0.45925925925925926,
+      "health": 0.6814814814814815,
+      "physics": 0.6158940397350994,
+      "business": 0.8675213675213675,
+      "computer science": 0.88,
+      "philosophy": 0.6681922196796338,
+      "other": 0.39,
+      "history": 0.7592592592592593
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "C",
+        "probs": {
+          "A": 0.03151024878025055,
+          "B": 0.04584714025259018,
+          "C": 0.7171699404716492,
+          "D": 0.20547263324260712
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0062756845727562904,
+          "B": 0.9914639592170715,
+          "C": 0.001024477300234139,
+          "D": 0.0012357555096969008
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9997183680534363,
+          "B": 6.203686643857509e-05,
+          "C": 0.00017950964684132487,
+          "D": 4.00540120608639e-05
+        }
+      }
+    ],
+    "training_task_name": "task002_quoref_answer_generation",
+    "task_index": 3,
+    "global_step": 2500,
+    "timestamp": 1775014836
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6370370370370371,
+      "global_facts": 0.39,
+      "marketing": 0.8547008547008547,
+      "philosophy": 0.662379421221865,
+      "formal_logic": 0.6190476190476191,
+      "prehistory": 0.7376543209876543,
+      "high_school_mathematics": 0.5,
+      "high_school_physics": 0.6622516556291391,
+      "high_school_computer_science": 0.86
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6676185037121645,
+    "category_acc": {
+      "STEM": 0.6161228406909789,
+      "humanities": 0.6872536136662286,
+      "other (business, health, misc.)": 0.6929637526652452
+    },
+    "subcategory_acc": {
+      "math": 0.5,
+      "health": 0.6370370370370371,
+      "physics": 0.6622516556291391,
+      "business": 0.8547008547008547,
+      "computer science": 0.86,
+      "philosophy": 0.6498855835240275,
+      "other": 0.39,
+      "history": 0.7376543209876543
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "C",
+        "probs": {
+          "A": 0.09611131995916367,
+          "B": 0.0547625795006752,
+          "C": 0.5530824661254883,
+          "D": 0.29604372382164
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.00043018010910600424,
+          "B": 0.9986942410469055,
+          "C": 0.0005188962677493691,
+          "D": 0.00035663184826262295
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9998180270195007,
+          "B": 5.475280340760946e-05,
+          "C": 0.00010229170584352687,
+          "D": 2.5067660317290574e-05
+        }
+      }
+    ],
+    "training_task_name": "task073_commonsenseqa_answer_generation",
+    "task_index": 4,
+    "global_step": 2440,
+    "timestamp": 1775015675
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6222222222222222,
+      "global_facts": 0.37,
+      "marketing": 0.8632478632478633,
+      "philosophy": 0.6334405144694534,
+      "formal_logic": 0.6111111111111112,
+      "prehistory": 0.7376543209876543,
+      "high_school_mathematics": 0.4666666666666667,
+      "high_school_physics": 0.6622516556291391,
+      "high_school_computer_science": 0.84
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6544831524842947,
+    "category_acc": {
+      "STEM": 0.5950095969289827,
+      "humanities": 0.6741130091984231,
+      "other (business, health, misc.)": 0.6886993603411514
+    },
+    "subcategory_acc": {
+      "math": 0.4666666666666667,
+      "health": 0.6222222222222222,
+      "physics": 0.6622516556291391,
+      "business": 0.8632478632478633,
+      "computer science": 0.84,
+      "philosophy": 0.6270022883295194,
+      "other": 0.37,
+      "history": 0.7376543209876543
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.019621573388576508,
+          "B": 0.023668134585022926,
+          "C": 0.3069330155849457,
+          "D": 0.6497772336006165
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0009689635480754077,
+          "B": 0.9982179999351501,
+          "C": 0.0005520987906493247,
+          "D": 0.0002607929927762598
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9998922348022461,
+          "B": 1.669990160735324e-05,
+          "C": 7.030921551631764e-05,
+          "D": 2.0783363652299158e-05
+        }
+      }
+    ],
+    "training_task_name": "task511_reddit_tifu_long_text_summarization",
+    "task_index": 5,
+    "global_step": 2500,
+    "timestamp": 1775016789
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6,
+      "global_facts": 0.34,
+      "marketing": 0.8760683760683761,
+      "philosophy": 0.6045016077170418,
+      "formal_logic": 0.5952380952380952,
+      "prehistory": 0.7129629629629629,
+      "high_school_mathematics": 0.48148148148148145,
+      "high_school_physics": 0.6423841059602649,
+      "high_school_computer_science": 0.81
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6407766990291263,
+    "category_acc": {
+      "STEM": 0.5911708253358925,
+      "humanities": 0.6491458607095927,
+      "other (business, health, misc.)": 0.6823027718550106
+    },
+    "subcategory_acc": {
+      "math": 0.48148148148148145,
+      "health": 0.6,
+      "physics": 0.6423841059602649,
+      "business": 0.8760683760683761,
+      "computer science": 0.81,
+      "philosophy": 0.6018306636155606,
+      "other": 0.34,
+      "history": 0.7129629629629629
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.03624660149216652,
+          "B": 0.0282288808375597,
+          "C": 0.25160127878189087,
+          "D": 0.6839231848716736
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0024690977297723293,
+          "B": 0.9961050748825073,
+          "C": 0.0009083302575163543,
+          "D": 0.0005175509722903371
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9997616410255432,
+          "B": 3.2185696909436956e-05,
+          "C": 0.00013133774336893111,
+          "D": 7.483398803742602e-05
+        }
+      }
+    ],
+    "training_task_name": "task1590_diplomacy_text_generation",
+    "task_index": 6,
+    "global_step": 320,
+    "timestamp": 1775017076
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6148148148148148,
+      "global_facts": 0.37,
+      "marketing": 0.8589743589743589,
+      "philosophy": 0.6141479099678456,
+      "formal_logic": 0.6111111111111112,
+      "prehistory": 0.7067901234567902,
+      "high_school_mathematics": 0.48148148148148145,
+      "high_school_physics": 0.6556291390728477,
+      "high_school_computer_science": 0.82
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.644774414620217,
+    "category_acc": {
+      "STEM": 0.5969289827255279,
+      "humanities": 0.6530880420499343,
+      "other (business, health, misc.)": 0.6844349680170576
+    },
+    "subcategory_acc": {
+      "math": 0.48148148148148145,
+      "health": 0.6148148148148148,
+      "physics": 0.6556291390728477,
+      "business": 0.8589743589743589,
+      "computer science": 0.82,
+      "philosophy": 0.6132723112128147,
+      "other": 0.37,
+      "history": 0.7067901234567902
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.00016619563393760473,
+          "B": 0.002088947454467416,
+          "C": 0.10065113008022308,
+          "D": 0.8970937728881836
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0008031391189433634,
+          "B": 0.9980193376541138,
+          "C": 0.0006254853797145188,
+          "D": 0.00055198889458552
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9994595646858215,
+          "B": 7.963630196172744e-05,
+          "C": 0.00023043525288812816,
+          "D": 0.00023043525288812816
+        }
+      }
+    ],
+    "training_task_name": "task363_sst2_polarity_classification",
+    "task_index": 7,
+    "global_step": 2500,
+    "timestamp": 1775017911
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6,
+      "global_facts": 0.36,
+      "marketing": 0.8418803418803419,
+      "philosophy": 0.6463022508038585,
+      "formal_logic": 0.6111111111111112,
+      "prehistory": 0.7191358024691358,
+      "high_school_mathematics": 0.4444444444444444,
+      "high_school_physics": 0.6490066225165563,
+      "high_school_computer_science": 0.85
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6442033123929183,
+    "category_acc": {
+      "STEM": 0.581573896353167,
+      "humanities": 0.671484888304862,
+      "other (business, health, misc.)": 0.6695095948827292
+    },
+    "subcategory_acc": {
+      "math": 0.4444444444444444,
+      "health": 0.6,
+      "physics": 0.6490066225165563,
+      "business": 0.8418803418803419,
+      "computer science": 0.85,
+      "philosophy": 0.6361556064073226,
+      "other": 0.36,
+      "history": 0.7191358024691358
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.00030243094079196453,
+          "B": 0.0021659252233803272,
+          "C": 0.06737995892763138,
+          "D": 0.930151641368866
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0005515530356206,
+          "B": 0.9972313046455383,
+          "C": 0.001698903040960431,
+          "D": 0.0005181361339055002
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9996029734611511,
+          "B": 8.478456584271044e-05,
+          "C": 0.00014880154049023986,
+          "D": 0.0001634265063330531
+        }
+      }
+    ],
+    "training_task_name": "task748_glucose_reverse_cause_event_detection",
+    "task_index": 8,
+    "global_step": 2500,
+    "timestamp": 1775018771
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.5777777777777777,
+      "global_facts": 0.36,
+      "marketing": 0.8333333333333334,
+      "philosophy": 0.6334405144694534,
+      "formal_logic": 0.5952380952380952,
+      "prehistory": 0.7037037037037037,
+      "high_school_mathematics": 0.45925925925925926,
+      "high_school_physics": 0.6291390728476821,
+      "high_school_computer_science": 0.8
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6327812678469446,
+    "category_acc": {
+      "STEM": 0.5738963531669866,
+      "humanities": 0.657030223390276,
+      "other (business, health, misc.)": 0.6588486140724946
+    },
+    "subcategory_acc": {
+      "math": 0.45925925925925926,
+      "health": 0.5777777777777777,
+      "physics": 0.6291390728476821,
+      "business": 0.8333333333333334,
+      "computer science": 0.8,
+      "philosophy": 0.6224256292906178,
+      "other": 0.36,
+      "history": 0.7037037037037037
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.001464472385123372,
+          "B": 0.003513086587190628,
+          "C": 0.07995747774839401,
+          "D": 0.9150649309158325
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.002172290813177824,
+          "B": 0.993051290512085,
+          "C": 0.0038124890998005867,
+          "D": 0.0009639482595957816
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9994761347770691,
+          "B": 0.00013546815898735076,
+          "C": 0.00026112169143743813,
+          "D": 0.0001272605441045016
+        }
+      }
+    ],
+    "training_task_name": "task639_multi_woz_user_utterance_generation",
+    "task_index": 9,
+    "global_step": 360,
+    "timestamp": 1775019067
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6,
+      "global_facts": 0.38,
+      "marketing": 0.8333333333333334,
+      "philosophy": 0.6334405144694534,
+      "formal_logic": 0.5714285714285714,
+      "prehistory": 0.691358024691358,
+      "high_school_mathematics": 0.44074074074074077,
+      "high_school_physics": 0.5894039735099338,
+      "high_school_computer_science": 0.8
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6253569388920617,
+    "category_acc": {
+      "STEM": 0.5527831094049904,
+      "humanities": 0.6478318002628121,
+      "other (business, health, misc.)": 0.6695095948827292
+    },
+    "subcategory_acc": {
+      "math": 0.44074074074074077,
+      "health": 0.6,
+      "physics": 0.5894039735099338,
+      "business": 0.8333333333333334,
+      "computer science": 0.8,
+      "philosophy": 0.6155606407322655,
+      "other": 0.38,
+      "history": 0.691358024691358
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.008248626254498959,
+          "B": 0.021063605323433876,
+          "C": 0.2731569707393646,
+          "D": 0.6975308060646057
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0014058096567168832,
+          "B": 0.9953688383102417,
+          "C": 0.002317788079380989,
+          "D": 0.0009076588903553784
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9992151260375977,
+          "B": 5.6456778111169115e-05,
+          "C": 0.0006262348033487797,
+          "D": 0.00010223002755083144
+        }
+      }
+    ],
+    "training_task_name": "task181_outcome_extraction",
+    "task_index": 10,
+    "global_step": 850,
+    "timestamp": 1775019507
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6,
+      "global_facts": 0.33,
+      "marketing": 0.8418803418803419,
+      "philosophy": 0.6720257234726688,
+      "formal_logic": 0.6111111111111112,
+      "prehistory": 0.6975308641975309,
+      "high_school_mathematics": 0.45925925925925926,
+      "high_school_physics": 0.609271523178808,
+      "high_school_computer_science": 0.82
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6402055968018275,
+    "category_acc": {
+      "STEM": 0.5719769673704415,
+      "humanities": 0.6727989487516426,
+      "other (business, health, misc.)": 0.6631130063965884
+    },
+    "subcategory_acc": {
+      "math": 0.45925925925925926,
+      "health": 0.6,
+      "physics": 0.609271523178808,
+      "business": 0.8418803418803419,
+      "computer science": 0.82,
+      "philosophy": 0.6544622425629291,
+      "other": 0.33,
+      "history": 0.6975308641975309
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.004011599346995354,
+          "B": 0.014904899522662163,
+          "C": 0.058950021862983704,
+          "D": 0.9221335053443909
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0004574932099785656,
+          "B": 0.9977540373802185,
+          "C": 0.0014091783668845892,
+          "D": 0.0003792752104345709
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9958133101463318,
+          "B": 5.122947914060205e-05,
+          "C": 0.004069661255925894,
+          "D": 6.577994645340368e-05
+        }
+      }
+    ],
+    "training_task_name": "task1729_personachat_generate_next",
+    "task_index": 11,
+    "global_step": 2500,
+    "timestamp": 1775020400
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.5851851851851851,
+      "global_facts": 0.35,
+      "marketing": 0.8290598290598291,
+      "philosophy": 0.6591639871382636,
+      "formal_logic": 0.6031746031746031,
+      "prehistory": 0.6728395061728395,
+      "high_school_mathematics": 0.45555555555555555,
+      "high_school_physics": 0.609271523178808,
+      "high_school_computer_science": 0.79
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6287835522558538,
+    "category_acc": {
+      "STEM": 0.564299424184261,
+      "humanities": 0.6557161629434954,
+      "other (business, health, misc.)": 0.6567164179104478
+    },
+    "subcategory_acc": {
+      "math": 0.45555555555555555,
+      "health": 0.5851851851851851,
+      "physics": 0.609271523178808,
+      "business": 0.8290598290598291,
+      "computer science": 0.79,
+      "philosophy": 0.6430205949656751,
+      "other": 0.35,
+      "history": 0.6728395061728395
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.00044852306018583477,
+          "B": 0.004529922269284725,
+          "C": 0.016830703243613243,
+          "D": 0.9781908988952637
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.0014980074483901262,
+          "B": 0.9963871240615845,
+          "C": 0.0014072478516027331,
+          "D": 0.0007076085894368589
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9967281818389893,
+          "B": 3.751471740542911e-05,
+          "C": 0.0031723673455417156,
+          "D": 6.185131496749818e-05
+        }
+      }
+    ],
+    "training_task_name": "task1687_sentiment140_classification",
+    "task_index": 12,
+    "global_step": 2500,
+    "timestamp": 1775021234
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6148148148148148,
+      "global_facts": 0.38,
+      "marketing": 0.8247863247863247,
+      "philosophy": 0.6752411575562701,
+      "formal_logic": 0.5952380952380952,
+      "prehistory": 0.7129629629629629,
+      "high_school_mathematics": 0.44814814814814813,
+      "high_school_physics": 0.6490066225165563,
+      "high_school_computer_science": 0.84
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6470588235294118,
+    "category_acc": {
+      "STEM": 0.581573896353167,
+      "humanities": 0.6780551905387647,
+      "other (business, health, misc.)": 0.6695095948827292
+    },
+    "subcategory_acc": {
+      "math": 0.44814814814814813,
+      "health": 0.6148148148148148,
+      "physics": 0.6490066225165563,
+      "business": 0.8247863247863247,
+      "computer science": 0.84,
+      "philosophy": 0.6521739130434783,
+      "other": 0.38,
+      "history": 0.7129629629629629
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.0005662543117068708,
+          "B": 0.004741189070045948,
+          "C": 0.03291037678718567,
+          "D": 0.9617821574211121
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 7.965887925820425e-05,
+          "B": 0.9997429251670837,
+          "C": 0.00013980569201521575,
+          "D": 3.76281859644223e-05
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9999568462371826,
+          "B": 2.102343188425948e-07,
+          "C": 4.264744711690582e-05,
+          "D": 1.9749685975511966e-07
+        }
+      }
+    ],
+    "training_task_name": "task591_sciq_answer_generation",
+    "task_index": 13,
+    "global_step": 2500,
+    "timestamp": 1775022054
+  },
+  {
+    "subjects": [
+      "anatomy",
+      "global_facts",
+      "marketing",
+      "philosophy",
+      "formal_logic",
+      "prehistory",
+      "high_school_mathematics",
+      "high_school_physics",
+      "high_school_computer_science"
+    ],
+    "subject_acc": {
+      "anatomy": 0.6,
+      "global_facts": 0.33,
+      "marketing": 0.8376068376068376,
+      "philosophy": 0.6495176848874598,
+      "formal_logic": 0.5555555555555556,
+      "prehistory": 0.6759259259259259,
+      "high_school_mathematics": 0.4666666666666667,
+      "high_school_physics": 0.6490066225165563,
+      "high_school_computer_science": 0.84
+    },
+    "mmlu_subject_count": 9,
+    "mmlu_weighted_acc": 0.6333523700742433,
+    "category_acc": {
+      "STEM": 0.5911708253358925,
+      "humanities": 0.6452036793692509,
+      "other (business, health, misc.)": 0.6609808102345416
+    },
+    "subcategory_acc": {
+      "math": 0.4666666666666667,
+      "health": 0.6,
+      "physics": 0.6490066225165563,
+      "business": 0.8376068376068376,
+      "computer science": 0.84,
+      "philosophy": 0.6224256292906178,
+      "other": 0.33,
+      "history": 0.6759259259259259
+    },
+    "debug_examples": [
+      {
+        "subject": "anatomy",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "label": "A",
+        "pred": "D",
+        "probs": {
+          "A": 0.0026676226407289505,
+          "B": 0.04441990330815315,
+          "C": 0.060714807361364365,
+          "D": 0.8921976089477539
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "A \"dished face\" profile is often associated with",
+        "label": "B",
+        "pred": "B",
+        "probs": {
+          "A": 0.000754215638153255,
+          "B": 0.9976704716682434,
+          "C": 0.0006655929610133171,
+          "D": 0.0009097577421925962
+        }
+      },
+      {
+        "subject": "anatomy",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "label": "A",
+        "pred": "A",
+        "probs": {
+          "A": 0.9997201561927795,
+          "B": 2.2822128812549636e-05,
+          "C": 0.00019108735432382673,
+          "D": 6.603801739402115e-05
+        }
+      }
+    ],
+    "training_task_name": "task875_emotion_classification",
+    "task_index": 14,
+    "global_step": 2500,
+    "timestamp": 1775022863
+  }
+]

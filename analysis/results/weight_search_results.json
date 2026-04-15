@@ -1,0 +1,1531 @@
+[
+  {
+    "weight": 0.0,
+    "eval_metrics": {
+      "eval_rougeL": 10.2146,
+      "eval_rougeL_for_task1687_sentiment140_classification": 6.3629,
+      "eval_rougeL_for_task1729_personachat_generate_next": 9.9524,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 26.4057,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 8.6595,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 7.9824,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 6.281,
+      "eval_rougeL_for_task1572_samsum_summary": 31.3492,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 13.0458,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 11.0762,
+      "eval_rougeL_for_task1290_xsum_summarization": 15.8445,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 7.704,
+      "eval_rougeL_for_task181_outcome_extraction": 9.47,
+      "eval_rougeL_for_task002_quoref_answer_generation": 7.8461,
+      "eval_rougeL_for_task875_emotion_classification": 2.701,
+      "eval_rougeL_for_task591_sciq_answer_generation": 2.5195,
+      "eval_loss": 11.235662460327148,
+      "eval_exact_match": 0.2506,
+      "eval_rouge1": 12.014,
+      "eval_exact_match_for_task1687_sentiment140_classification": 0.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 6.3629,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 12.5465,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 0.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 28.5719,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 0.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 9.4998,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 1.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 7.9824,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 8.8379,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 41.3411,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 18.5841,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 15.4741,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 22.9991,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 2.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 7.704,
+      "eval_exact_match_for_task181_outcome_extraction": 0.0,
+      "eval_rouge1_for_task181_outcome_extraction": 9.47,
+      "eval_exact_match_for_task002_quoref_answer_generation": 0.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 7.8461,
+      "eval_exact_match_for_task875_emotion_classification": 0.0,
+      "eval_rouge1_for_task875_emotion_classification": 2.701,
+      "eval_exact_match_for_task591_sciq_answer_generation": 0.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 2.6029,
+      "eval_gen_len": 945.9616,
+      "eval_global_step": 1250,
+      "eval_runtime": 190.9442,
+      "eval_samples_per_second": 6.269,
+      "eval_steps_per_second": 0.199,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6888888888888889,
+        "global_facts": 0.46,
+        "marketing": 0.9358974358974359,
+        "philosophy": 0.77491961414791,
+        "formal_logic": 0.6746031746031746,
+        "prehistory": 0.845679012345679,
+        "high_school_mathematics": 0.5444444444444444,
+        "high_school_physics": 0.7483443708609272,
+        "high_school_computer_science": 0.86
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.7447173043974872,
+      "category_acc": {
+        "STEM": 0.6641074856046065,
+        "humanities": 0.7884362680683311,
+        "other (business, health, misc.)": 0.7633262260127932
+      },
+      "subcategory_acc": {
+        "math": 0.5444444444444444,
+        "health": 0.6888888888888889,
+        "physics": 0.7483443708609272,
+        "business": 0.9358974358974359,
+        "computer science": 0.86,
+        "philosophy": 0.7459954233409611,
+        "other": 0.46,
+        "history": 0.845679012345679
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.985531210899353,
+            "B": 0.0010840247850865126,
+            "C": 0.005860182922333479,
+            "D": 0.0075246235355734825
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.0014957230305299163,
+            "B": 0.9948676824569702,
+            "C": 0.0015921888407319784,
+            "D": 0.0020444109104573727
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.998643696308136,
+            "B": 0.0006066204514354467,
+            "C": 0.0003456419217400253,
+            "D": 0.00040409635403193533
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 0.2,
+    "eval_metrics": {
+      "eval_rougeL": 16.6365,
+      "eval_rougeL_for_task1687_sentiment140_classification": 5.6731,
+      "eval_rougeL_for_task1729_personachat_generate_next": 10.1616,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 26.5626,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 13.4078,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 8.1164,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 7.3776,
+      "eval_rougeL_for_task1572_samsum_summary": 30.637,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 13.7643,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 12.051,
+      "eval_rougeL_for_task1290_xsum_summarization": 18.6975,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 13.4179,
+      "eval_rougeL_for_task181_outcome_extraction": 10.4612,
+      "eval_rougeL_for_task002_quoref_answer_generation": 7.9547,
+      "eval_rougeL_for_task875_emotion_classification": 3.2827,
+      "eval_rougeL_for_task591_sciq_answer_generation": 64.2187,
+      "eval_loss": 6.434947967529297,
+      "eval_exact_match": 4.7619,
+      "eval_rouge1": 18.4516,
+      "eval_exact_match_for_task1687_sentiment140_classification": 0.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 5.6731,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 12.3935,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 0.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 29.1276,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 0.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 13.4078,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 1.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 8.1164,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 8.5246,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 41.8071,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 19.2149,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 17.2827,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 25.7239,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 6.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 13.4179,
+      "eval_exact_match_for_task181_outcome_extraction": 0.0,
+      "eval_rouge1_for_task181_outcome_extraction": 10.4612,
+      "eval_exact_match_for_task002_quoref_answer_generation": 0.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 7.9547,
+      "eval_exact_match_for_task875_emotion_classification": 0.0,
+      "eval_rouge1_for_task875_emotion_classification": 3.2827,
+      "eval_exact_match_for_task591_sciq_answer_generation": 50.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 65.3933,
+      "eval_gen_len": 942.086,
+      "eval_global_step": 1250,
+      "eval_runtime": 187.0161,
+      "eval_samples_per_second": 6.401,
+      "eval_steps_per_second": 0.203,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6962962962962963,
+        "global_facts": 0.47,
+        "marketing": 0.9444444444444444,
+        "philosophy": 0.7684887459807074,
+        "formal_logic": 0.6825396825396826,
+        "prehistory": 0.8333333333333334,
+        "high_school_mathematics": 0.562962962962963,
+        "high_school_physics": 0.7284768211920529,
+        "high_school_computer_science": 0.89
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.7470017133066819,
+      "category_acc": {
+        "STEM": 0.6737044145873321,
+        "humanities": 0.7818659658344284,
+        "other (business, health, misc.)": 0.7718550106609808
+      },
+      "subcategory_acc": {
+        "math": 0.562962962962963,
+        "health": 0.6962962962962963,
+        "physics": 0.7284768211920529,
+        "business": 0.9444444444444444,
+        "computer science": 0.89,
+        "philosophy": 0.7437070938215103,
+        "other": 0.47,
+        "history": 0.8333333333333334
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9883583188056946,
+            "B": 0.0005135259707458317,
+            "C": 0.004872198682278395,
+            "D": 0.006256026681512594
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.0006654895259998739,
+            "B": 0.9975154399871826,
+            "C": 0.0009096163557842374,
+            "D": 0.0009096163557842374
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9994246959686279,
+            "B": 0.00028677130467258394,
+            "C": 0.00014877499779686332,
+            "D": 0.00013976117770653218
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 0.4,
+    "eval_metrics": {
+      "eval_rougeL": 54.4186,
+      "eval_rougeL_for_task1687_sentiment140_classification": 37.3333,
+      "eval_rougeL_for_task1729_personachat_generate_next": 15.4693,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 51.1049,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 99.8571,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 90.1667,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 7.2973,
+      "eval_rougeL_for_task1572_samsum_summary": 36.9409,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 17.7015,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 11.973,
+      "eval_rougeL_for_task1290_xsum_summarization": 26.7494,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 83.0,
+      "eval_rougeL_for_task181_outcome_extraction": 49.7198,
+      "eval_rougeL_for_task002_quoref_answer_generation": 75.4685,
+      "eval_rougeL_for_task875_emotion_classification": 53.6667,
+      "eval_rougeL_for_task591_sciq_answer_generation": 68.8761,
+      "eval_loss": 2.748321771621704,
+      "eval_exact_match": 37.9282,
+      "eval_rouge1": 56.1265,
+      "eval_exact_match_for_task1687_sentiment140_classification": 0.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 37.3333,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 17.0827,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 0.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 53.4757,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 99.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 99.8571,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 87.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 90.1667,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 7.8972,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 45.7083,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 23.5437,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 14.8872,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 34.3725,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 83.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 83.0,
+      "eval_exact_match_for_task181_outcome_extraction": 25.5814,
+      "eval_rouge1_for_task181_outcome_extraction": 49.7198,
+      "eval_exact_match_for_task002_quoref_answer_generation": 65.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 75.4685,
+      "eval_exact_match_for_task875_emotion_classification": 53.0,
+      "eval_rouge1_for_task875_emotion_classification": 53.6667,
+      "eval_exact_match_for_task591_sciq_answer_generation": 56.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 69.5427,
+      "eval_gen_len": 907.731,
+      "eval_global_step": 1250,
+      "eval_runtime": 115.736,
+      "eval_samples_per_second": 10.343,
+      "eval_steps_per_second": 0.328,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6888888888888889,
+        "global_facts": 0.49,
+        "marketing": 0.9316239316239316,
+        "philosophy": 0.752411575562701,
+        "formal_logic": 0.6825396825396826,
+        "prehistory": 0.8364197530864198,
+        "high_school_mathematics": 0.5444444444444444,
+        "high_school_physics": 0.7218543046357616,
+        "high_school_computer_science": 0.87
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.7390062821245003,
+      "category_acc": {
+        "STEM": 0.6583493282149712,
+        "humanities": 0.7766097240473062,
+        "other (business, health, misc.)": 0.767590618336887
+      },
+      "subcategory_acc": {
+        "math": 0.5444444444444444,
+        "health": 0.6888888888888889,
+        "physics": 0.7218543046357616,
+        "business": 0.9316239316239316,
+        "computer science": 0.87,
+        "philosophy": 0.7322654462242563,
+        "other": 0.49,
+        "history": 0.8364197530864198
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9890294075012207,
+            "B": 0.000214214829611592,
+            "C": 0.004875506740063429,
+            "D": 0.005880984012037516
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.0003147835086565465,
+            "B": 0.9988752007484436,
+            "C": 0.00043025804916396737,
+            "D": 0.0003797014069277793
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9996716976165771,
+            "B": 0.00017950126493815333,
+            "C": 8.47903938847594e-05,
+            "D": 6.400314305210486e-05
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 0.6,
+    "eval_metrics": {
+      "eval_rougeL": 54.4558,
+      "eval_rougeL_for_task1687_sentiment140_classification": 18.3333,
+      "eval_rougeL_for_task1729_personachat_generate_next": 16.1668,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 60.7286,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 92.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 7.2736,
+      "eval_rougeL_for_task1572_samsum_summary": 40.4963,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 18.097,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 9.6231,
+      "eval_rougeL_for_task1290_xsum_summarization": 28.7845,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 78.0,
+      "eval_rougeL_for_task181_outcome_extraction": 53.2479,
+      "eval_rougeL_for_task002_quoref_answer_generation": 76.6095,
+      "eval_rougeL_for_task875_emotion_classification": 62.0,
+      "eval_rougeL_for_task591_sciq_answer_generation": 67.2714,
+      "eval_loss": 2.004605293273926,
+      "eval_exact_match": 40.2673,
+      "eval_rouge1": 56.0759,
+      "eval_exact_match_for_task1687_sentiment140_classification": 11.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 18.3333,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 17.7244,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 2.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 63.1812,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 92.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 92.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 7.8584,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 49.2531,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 23.6295,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 11.6031,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 35.7938,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 78.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 78.0,
+      "eval_exact_match_for_task181_outcome_extraction": 25.5814,
+      "eval_rouge1_for_task181_outcome_extraction": 53.2479,
+      "eval_exact_match_for_task002_quoref_answer_generation": 71.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 76.6095,
+      "eval_exact_match_for_task875_emotion_classification": 62.0,
+      "eval_rouge1_for_task875_emotion_classification": 62.0,
+      "eval_exact_match_for_task591_sciq_answer_generation": 55.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 67.9381,
+      "eval_gen_len": 906.4144,
+      "eval_global_step": 1250,
+      "eval_runtime": 98.355,
+      "eval_samples_per_second": 12.17,
+      "eval_steps_per_second": 0.386,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6888888888888889,
+        "global_facts": 0.48,
+        "marketing": 0.9273504273504274,
+        "philosophy": 0.7588424437299035,
+        "formal_logic": 0.6746031746031746,
+        "prehistory": 0.8333333333333334,
+        "high_school_mathematics": 0.5481481481481482,
+        "high_school_physics": 0.695364238410596,
+        "high_school_computer_science": 0.87
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.7361507709880069,
+      "category_acc": {
+        "STEM": 0.6525911708253359,
+        "humanities": 0.7766097240473062,
+        "other (business, health, misc.)": 0.7633262260127932
+      },
+      "subcategory_acc": {
+        "math": 0.5481481481481482,
+        "health": 0.6888888888888889,
+        "physics": 0.695364238410596,
+        "business": 0.9273504273504274,
+        "computer science": 0.87,
+        "philosophy": 0.7345537757437071,
+        "other": 0.48,
+        "history": 0.8333333333333334
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9925232529640198,
+            "B": 5.785880784969777e-05,
+            "C": 0.00405621575191617,
+            "D": 0.0033627210650593042
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.000295859994366765,
+            "B": 0.9993759989738464,
+            "C": 0.00017944816499948502,
+            "D": 0.0001487677509430796
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9997971653938293,
+            "B": 0.00011958862887695432,
+            "C": 5.306713137542829e-05,
+            "D": 3.0236738894018345e-05
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 0.8,
+    "eval_metrics": {
+      "eval_rougeL": 59.4165,
+      "eval_rougeL_for_task1687_sentiment140_classification": 78.0,
+      "eval_rougeL_for_task1729_personachat_generate_next": 14.3467,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 65.2217,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 91.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 7.2167,
+      "eval_rougeL_for_task1572_samsum_summary": 37.4334,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 17.6123,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 16.1786,
+      "eval_rougeL_for_task1290_xsum_summarization": 27.8786,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 77.0,
+      "eval_rougeL_for_task181_outcome_extraction": 48.65,
+      "eval_rougeL_for_task002_quoref_answer_generation": 78.0381,
+      "eval_rougeL_for_task875_emotion_classification": 65.0,
+      "eval_rougeL_for_task591_sciq_answer_generation": 64.8238,
+      "eval_loss": 2.0300049781799316,
+      "eval_exact_match": 45.9482,
+      "eval_rouge1": 60.8092,
+      "eval_exact_match_for_task1687_sentiment140_classification": 78.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 78.0,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 15.2695,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 4.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 66.629,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 91.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 91.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 8.2167,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 43.5807,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 22.6176,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 18.2966,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 34.5992,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 77.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 77.0,
+      "eval_exact_match_for_task181_outcome_extraction": 20.9302,
+      "eval_rouge1_for_task181_outcome_extraction": 48.65,
+      "eval_exact_match_for_task002_quoref_answer_generation": 74.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 78.0381,
+      "eval_exact_match_for_task875_emotion_classification": 65.0,
+      "eval_rouge1_for_task875_emotion_classification": 65.0,
+      "eval_exact_match_for_task591_sciq_answer_generation": 52.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 65.6905,
+      "eval_gen_len": 906.3417,
+      "eval_global_step": 1250,
+      "eval_runtime": 97.772,
+      "eval_samples_per_second": 12.243,
+      "eval_steps_per_second": 0.389,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6814814814814815,
+        "global_facts": 0.42,
+        "marketing": 0.9145299145299145,
+        "philosophy": 0.7395498392282959,
+        "formal_logic": 0.6587301587301587,
+        "prehistory": 0.8148148148148148,
+        "high_school_mathematics": 0.5333333333333333,
+        "high_school_physics": 0.6754966887417219,
+        "high_school_computer_science": 0.88
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.7190177041690463,
+      "category_acc": {
+        "STEM": 0.6410748560460653,
+        "humanities": 0.7582128777923784,
+        "other (business, health, misc.)": 0.7420042643923241
+      },
+      "subcategory_acc": {
+        "math": 0.5333333333333333,
+        "health": 0.6814814814814815,
+        "physics": 0.6754966887417219,
+        "business": 0.9145299145299145,
+        "computer science": 0.88,
+        "philosophy": 0.7162471395881007,
+        "other": 0.42,
+        "history": 0.8148148148148148
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9844905734062195,
+            "B": 1.3631450201501139e-05,
+            "C": 0.010936702601611614,
+            "D": 0.004559095948934555
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.000552695244550705,
+            "B": 0.9992964267730713,
+            "C": 8.475856157019734e-05,
+            "D": 6.601002678507939e-05
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9998906850814819,
+            "B": 6.604928785236552e-05,
+            "C": 3.023956742254086e-05,
+            "D": 1.3005876098759472e-05
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 1.0,
+    "eval_metrics": {
+      "eval_rougeL": 56.8661,
+      "eval_rougeL_for_task1687_sentiment140_classification": 77.0,
+      "eval_rougeL_for_task1729_personachat_generate_next": 11.9146,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 64.1938,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 91.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 6.9067,
+      "eval_rougeL_for_task1572_samsum_summary": 35.1762,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 15.3722,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 10.3932,
+      "eval_rougeL_for_task1290_xsum_summarization": 25.6075,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 69.0,
+      "eval_rougeL_for_task181_outcome_extraction": 40.0762,
+      "eval_rougeL_for_task002_quoref_answer_generation": 76.1095,
+      "eval_rougeL_for_task875_emotion_classification": 62.0,
+      "eval_rougeL_for_task591_sciq_answer_generation": 61.3159,
+      "eval_loss": 2.2742035388946533,
+      "eval_exact_match": 44.1103,
+      "eval_rouge1": 58.3244,
+      "eval_exact_match_for_task1687_sentiment140_classification": 77.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 77.0,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 12.794,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 3.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 65.8446,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 100.0,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 91.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 91.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 7.6427,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 41.1089,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 19.7565,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 13.3155,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 33.6948,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 69.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 69.0,
+      "eval_exact_match_for_task181_outcome_extraction": 18.6047,
+      "eval_rouge1_for_task181_outcome_extraction": 40.0762,
+      "eval_exact_match_for_task002_quoref_answer_generation": 72.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 76.1095,
+      "eval_exact_match_for_task875_emotion_classification": 62.0,
+      "eval_rouge1_for_task875_emotion_classification": 62.0,
+      "eval_exact_match_for_task591_sciq_answer_generation": 46.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 61.9825,
+      "eval_gen_len": 906.4545,
+      "eval_global_step": 1250,
+      "eval_runtime": 97.4898,
+      "eval_samples_per_second": 12.278,
+      "eval_steps_per_second": 0.39,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6592592592592592,
+        "global_facts": 0.36,
+        "marketing": 0.9188034188034188,
+        "philosophy": 0.7138263665594855,
+        "formal_logic": 0.6587301587301587,
+        "prehistory": 0.7901234567901234,
+        "high_school_mathematics": 0.5074074074074074,
+        "high_school_physics": 0.6490066225165563,
+        "high_school_computer_science": 0.84
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.6967447173043975,
+      "category_acc": {
+        "STEM": 0.6122840690978887,
+        "humanities": 0.7371879106438897,
+        "other (business, health, misc.)": 0.7249466950959488
+      },
+      "subcategory_acc": {
+        "math": 0.5074074074074074,
+        "health": 0.6592592592592592,
+        "physics": 0.6490066225165563,
+        "business": 0.9188034188034188,
+        "computer science": 0.84,
+        "philosophy": 0.6979405034324943,
+        "other": 0.36,
+        "history": 0.7901234567901234
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9603290557861328,
+            "B": 3.1582917472405825e-06,
+            "C": 0.02899942547082901,
+            "D": 0.010668291710317135
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.0010986854322254658,
+            "B": 0.9988597631454468,
+            "C": 2.012312506849412e-05,
+            "D": 2.1420955818030052e-05
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.999942421913147,
+            "B": 3.321338590467349e-05,
+            "C": 1.892441650852561e-05,
+            "D": 5.421935838967329e-06
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 1.2,
+    "eval_metrics": {
+      "eval_rougeL": 53.9635,
+      "eval_rougeL_for_task1687_sentiment140_classification": 77.0,
+      "eval_rougeL_for_task1729_personachat_generate_next": 10.8791,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 63.5781,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 98.1333,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 91.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 7.8362,
+      "eval_rougeL_for_task1572_samsum_summary": 28.1054,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 11.9572,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 10.4018,
+      "eval_rougeL_for_task1290_xsum_summarization": 22.0287,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 59.0,
+      "eval_rougeL_for_task181_outcome_extraction": 46.5185,
+      "eval_rougeL_for_task002_quoref_answer_generation": 76.6714,
+      "eval_rougeL_for_task875_emotion_classification": 58.0,
+      "eval_rougeL_for_task591_sciq_answer_generation": 48.997,
+      "eval_loss": 2.521224021911621,
+      "eval_exact_match": 41.5205,
+      "eval_rouge1": 55.4317,
+      "eval_exact_match_for_task1687_sentiment140_classification": 77.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 77.0,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 11.8401,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 2.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 65.9576,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 94.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 98.1333,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 91.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 91.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 9.1984,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 33.9831,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 15.9542,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 15.0537,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 29.9178,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 59.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 59.0,
+      "eval_exact_match_for_task181_outcome_extraction": 25.5814,
+      "eval_rouge1_for_task181_outcome_extraction": 46.5185,
+      "eval_exact_match_for_task002_quoref_answer_generation": 71.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 76.6714,
+      "eval_exact_match_for_task875_emotion_classification": 57.0,
+      "eval_rouge1_for_task875_emotion_classification": 58.0,
+      "eval_exact_match_for_task591_sciq_answer_generation": 35.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 49.1788,
+      "eval_gen_len": 906.6867,
+      "eval_global_step": 1250,
+      "eval_runtime": 101.4318,
+      "eval_samples_per_second": 11.801,
+      "eval_steps_per_second": 0.375,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6444444444444445,
+        "global_facts": 0.36,
+        "marketing": 0.9017094017094017,
+        "philosophy": 0.7041800643086816,
+        "formal_logic": 0.6031746031746031,
+        "prehistory": 0.7407407407407407,
+        "high_school_mathematics": 0.5222222222222223,
+        "high_school_physics": 0.6490066225165563,
+        "high_school_computer_science": 0.83
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.6801827527127355,
+      "category_acc": {
+        "STEM": 0.6180422264875239,
+        "humanities": 0.7030223390275953,
+        "other (business, health, misc.)": 0.7121535181236673
+      },
+      "subcategory_acc": {
+        "math": 0.5222222222222223,
+        "health": 0.6444444444444445,
+        "physics": 0.6490066225165563,
+        "business": 0.9017094017094017,
+        "computer science": 0.83,
+        "philosophy": 0.6750572082379863,
+        "other": 0.36,
+        "history": 0.7407407407407407
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.7174497842788696,
+            "B": 1.7262618712265976e-06,
+            "C": 0.14127424359321594,
+            "D": 0.14127424359321594
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.0035935642663389444,
+            "B": 0.9963957667350769,
+            "C": 4.478999926504912e-06,
+            "D": 6.1220671341288835e-06
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9999608993530273,
+            "B": 2.2827623979537748e-05,
+            "C": 1.1842816093121655e-05,
+            "D": 4.495025677897502e-06
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 1.4,
+    "eval_metrics": {
+      "eval_rougeL": 48.5948,
+      "eval_rougeL_for_task1687_sentiment140_classification": 75.0,
+      "eval_rougeL_for_task1729_personachat_generate_next": 6.0787,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 58.5866,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 94.4881,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 87.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 5.0272,
+      "eval_rougeL_for_task1572_samsum_summary": 17.5028,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 6.3051,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 6.6353,
+      "eval_rougeL_for_task1290_xsum_summarization": 17.5264,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 52.0,
+      "eval_rougeL_for_task181_outcome_extraction": 34.7369,
+      "eval_rougeL_for_task002_quoref_answer_generation": 73.8405,
+      "eval_rougeL_for_task875_emotion_classification": 55.0,
+      "eval_rougeL_for_task591_sciq_answer_generation": 35.45,
+      "eval_loss": 2.8842720985412598,
+      "eval_exact_match": 37.3434,
+      "eval_rouge1": 49.4927,
+      "eval_exact_match_for_task1687_sentiment140_classification": 75.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 75.0,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 6.4623,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 1.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 60.0999,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 86.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 94.9881,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 87.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 87.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 6.1248,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 21.1125,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 8.2456,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 7.3445,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 22.9037,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 52.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 52.0,
+      "eval_exact_match_for_task181_outcome_extraction": 13.9535,
+      "eval_rouge1_for_task181_outcome_extraction": 34.7369,
+      "eval_exact_match_for_task002_quoref_answer_generation": 67.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 73.8405,
+      "eval_exact_match_for_task875_emotion_classification": 52.0,
+      "eval_rouge1_for_task875_emotion_classification": 55.0,
+      "eval_exact_match_for_task591_sciq_answer_generation": 21.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 35.45,
+      "eval_gen_len": 907.8396,
+      "eval_global_step": 1250,
+      "eval_runtime": 106.6364,
+      "eval_samples_per_second": 11.225,
+      "eval_steps_per_second": 0.356,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6296296296296297,
+        "global_facts": 0.33,
+        "marketing": 0.8760683760683761,
+        "philosophy": 0.6591639871382636,
+        "formal_logic": 0.6111111111111112,
+        "prehistory": 0.691358024691358,
+        "high_school_mathematics": 0.5074074074074074,
+        "high_school_physics": 0.6026490066225165,
+        "high_school_computer_science": 0.81
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.6499143346659052,
+      "category_acc": {
+        "STEM": 0.5930902111324377,
+        "humanities": 0.6649145860709592,
+        "other (business, health, misc.)": 0.6886993603411514
+      },
+      "subcategory_acc": {
+        "math": 0.5074074074074074,
+        "health": 0.6296296296296297,
+        "physics": 0.6026490066225165,
+        "business": 0.8760683760683761,
+        "computer science": 0.81,
+        "philosophy": 0.6453089244851259,
+        "other": 0.33,
+        "history": 0.691358024691358
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "D",
+          "probs": {
+            "A": 0.09760899841785431,
+            "B": 1.1204439260836807e-06,
+            "C": 0.34068888425827026,
+            "D": 0.5617009997367859
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "B",
+          "probs": {
+            "A": 0.03308585658669472,
+            "B": 0.9669104814529419,
+            "C": 1.3255947806101176e-06,
+            "D": 2.326491312487633e-06
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9999810457229614,
+            "B": 1.260686622117646e-05,
+            "C": 4.092849849257618e-06,
+            "D": 2.2602866920351516e-06
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 1.6,
+    "eval_metrics": {
+      "eval_rougeL": 43.0344,
+      "eval_rougeL_for_task1687_sentiment140_classification": 69.0,
+      "eval_rougeL_for_task1729_personachat_generate_next": 3.9082,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 47.3132,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 83.4708,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 82.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 5.8805,
+      "eval_rougeL_for_task1572_samsum_summary": 12.6207,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 5.1499,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 7.6644,
+      "eval_rougeL_for_task1290_xsum_summarization": 10.7611,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 51.0,
+      "eval_rougeL_for_task181_outcome_extraction": 35.7206,
+      "eval_rougeL_for_task002_quoref_answer_generation": 70.2754,
+      "eval_rougeL_for_task875_emotion_classification": 49.6667,
+      "eval_rougeL_for_task591_sciq_answer_generation": 22.4082,
+      "eval_loss": 3.4349594116210938,
+      "eval_exact_match": 32.2473,
+      "eval_rouge1": 43.8162,
+      "eval_exact_match_for_task1687_sentiment140_classification": 69.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 69.0,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 4.3018,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 1.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 50.1137,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 61.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 85.0899,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 82.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 82.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 6.198,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 14.1622,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 6.0787,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 9.7564,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 13.6767,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 51.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 51.0,
+      "eval_exact_match_for_task181_outcome_extraction": 13.9535,
+      "eval_rouge1_for_task181_outcome_extraction": 35.7206,
+      "eval_exact_match_for_task002_quoref_answer_generation": 63.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 70.2754,
+      "eval_exact_match_for_task875_emotion_classification": 41.0,
+      "eval_rouge1_for_task875_emotion_classification": 49.6667,
+      "eval_exact_match_for_task591_sciq_answer_generation": 12.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 22.4082,
+      "eval_gen_len": 909.0501,
+      "eval_global_step": 1250,
+      "eval_runtime": 122.516,
+      "eval_samples_per_second": 9.77,
+      "eval_steps_per_second": 0.31,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.6074074074074074,
+        "global_facts": 0.33,
+        "marketing": 0.8461538461538461,
+        "philosophy": 0.6109324758842444,
+        "formal_logic": 0.5952380952380952,
+        "prehistory": 0.6141975308641975,
+        "high_school_mathematics": 0.4777777777777778,
+        "high_school_physics": 0.5364238410596026,
+        "high_school_computer_science": 0.75
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.6065105653912051,
+      "category_acc": {
+        "STEM": 0.5470249520153551,
+        "humanities": 0.6097240473061761,
+        "other (business, health, misc.)": 0.6673773987206824
+      },
+      "subcategory_acc": {
+        "math": 0.4777777777777778,
+        "health": 0.6074074074074074,
+        "physics": 0.5364238410596026,
+        "business": 0.8461538461538461,
+        "computer science": 0.75,
+        "philosophy": 0.6064073226544623,
+        "other": 0.33,
+        "history": 0.6141975308641975
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "D",
+          "probs": {
+            "A": 0.0014811712317168713,
+            "B": 4.81590291201428e-07,
+            "C": 0.43717479705810547,
+            "D": 0.5613435506820679
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "A",
+          "probs": {
+            "A": 0.6513532400131226,
+            "B": 0.34864428639411926,
+            "C": 1.0771378811114118e-06,
+            "D": 1.4722728565175203e-06
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9997867941856384,
+            "B": 0.0001795219286577776,
+            "C": 7.887642823334318e-06,
+            "D": 2.5862584152491763e-05
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 1.8,
+    "eval_metrics": {
+      "eval_rougeL": 33.1725,
+      "eval_rougeL_for_task1687_sentiment140_classification": 67.0,
+      "eval_rougeL_for_task1729_personachat_generate_next": 2.7128,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 24.8021,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 53.3598,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 76.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 4.0692,
+      "eval_rougeL_for_task1572_samsum_summary": 6.5568,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 2.9087,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 2.4758,
+      "eval_rougeL_for_task1290_xsum_summarization": 7.1011,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 40.0,
+      "eval_rougeL_for_task181_outcome_extraction": 28.1219,
+      "eval_rougeL_for_task002_quoref_answer_generation": 59.3655,
+      "eval_rougeL_for_task875_emotion_classification": 42.5,
+      "eval_rougeL_for_task591_sciq_answer_generation": 6.7929,
+      "eval_loss": 4.188662052154541,
+      "eval_exact_match": 25.1462,
+      "eval_rouge1": 33.5464,
+      "eval_exact_match_for_task1687_sentiment140_classification": 67.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 67.0,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 2.9595,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 0.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 25.9935,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 20.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 53.9788,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 76.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 76.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 4.7228,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 7.2694,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 3.3329,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 2.7964,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 8.7837,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 40.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 40.0,
+      "eval_exact_match_for_task181_outcome_extraction": 16.2791,
+      "eval_rouge1_for_task181_outcome_extraction": 28.1219,
+      "eval_exact_match_for_task002_quoref_answer_generation": 49.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 59.3655,
+      "eval_exact_match_for_task875_emotion_classification": 40.0,
+      "eval_rouge1_for_task875_emotion_classification": 42.5,
+      "eval_exact_match_for_task591_sciq_answer_generation": 2.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 6.7929,
+      "eval_gen_len": 911.7561,
+      "eval_global_step": 1250,
+      "eval_runtime": 145.3591,
+      "eval_samples_per_second": 8.235,
+      "eval_steps_per_second": 0.261,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.5333333333333333,
+        "global_facts": 0.3,
+        "marketing": 0.8076923076923077,
+        "philosophy": 0.572347266881029,
+        "formal_logic": 0.5793650793650794,
+        "prehistory": 0.595679012345679,
+        "high_school_mathematics": 0.46296296296296297,
+        "high_school_physics": 0.5165562913907285,
+        "high_school_computer_science": 0.69
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.5750999428897773,
+      "category_acc": {
+        "STEM": 0.5220729366602687,
+        "humanities": 0.5834428383705651,
+        "other (business, health, misc.)": 0.6204690831556503
+      },
+      "subcategory_acc": {
+        "math": 0.46296296296296297,
+        "health": 0.5333333333333333,
+        "physics": 0.5165562913907285,
+        "business": 0.8076923076923077,
+        "computer science": 0.69,
+        "philosophy": 0.5743707093821511,
+        "other": 0.3,
+        "history": 0.595679012345679
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "D",
+          "probs": {
+            "A": 0.00031945088994689286,
+            "B": 5.0620613478713494e-08,
+            "C": 0.047410715371370316,
+            "D": 0.9522697329521179
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "A",
+          "probs": {
+            "A": 0.984089732170105,
+            "B": 0.015906328335404396,
+            "C": 3.236434849895886e-06,
+            "D": 7.450695989064116e-07
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.999871015548706,
+            "B": 4.264378731022589e-05,
+            "C": 7.484217348974198e-05,
+            "D": 1.1477419320726767e-05
+          }
+        }
+      ]
+    }
+  },
+  {
+    "weight": 2.0,
+    "eval_metrics": {
+      "eval_rougeL": 25.2047,
+      "eval_rougeL_for_task1687_sentiment140_classification": 59.2605,
+      "eval_rougeL_for_task1729_personachat_generate_next": 1.6129,
+      "eval_rougeL_for_task748_glucose_reverse_cause_event_detection": 10.9845,
+      "eval_rougeL_for_task1510_evalution_relation_extraction": 34.3853,
+      "eval_rougeL_for_task363_sst2_polarity_classification": 68.0,
+      "eval_rougeL_for_task639_multi_woz_user_utterance_generation": 2.1551,
+      "eval_rougeL_for_task1572_samsum_summary": 4.9238,
+      "eval_rougeL_for_task511_reddit_tifu_long_text_summarization": 2.335,
+      "eval_rougeL_for_task1590_diplomacy_text_generation": 2.1284,
+      "eval_rougeL_for_task1290_xsum_summarization": 3.5598,
+      "eval_rougeL_for_task073_commonsenseqa_answer_generation": 30.0,
+      "eval_rougeL_for_task181_outcome_extraction": 19.5501,
+      "eval_rougeL_for_task002_quoref_answer_generation": 38.8917,
+      "eval_rougeL_for_task875_emotion_classification": 39.5667,
+      "eval_rougeL_for_task591_sciq_answer_generation": 2.9841,
+      "eval_loss": 5.277897834777832,
+      "eval_exact_match": 18.797,
+      "eval_rouge1": 25.407,
+      "eval_exact_match_for_task1687_sentiment140_classification": 59.0,
+      "eval_rouge1_for_task1687_sentiment140_classification": 59.2605,
+      "eval_exact_match_for_task1729_personachat_generate_next": 0.0,
+      "eval_rouge1_for_task1729_personachat_generate_next": 1.6129,
+      "eval_exact_match_for_task748_glucose_reverse_cause_event_detection": 0.0,
+      "eval_rouge1_for_task748_glucose_reverse_cause_event_detection": 11.6006,
+      "eval_exact_match_for_task1510_evalution_relation_extraction": 4.0,
+      "eval_rouge1_for_task1510_evalution_relation_extraction": 35.1386,
+      "eval_exact_match_for_task363_sst2_polarity_classification": 68.0,
+      "eval_rouge1_for_task363_sst2_polarity_classification": 68.0,
+      "eval_exact_match_for_task639_multi_woz_user_utterance_generation": 0.0,
+      "eval_rouge1_for_task639_multi_woz_user_utterance_generation": 2.1551,
+      "eval_exact_match_for_task1572_samsum_summary": 0.0,
+      "eval_rouge1_for_task1572_samsum_summary": 5.1563,
+      "eval_exact_match_for_task511_reddit_tifu_long_text_summarization": 0.0,
+      "eval_rouge1_for_task511_reddit_tifu_long_text_summarization": 2.6014,
+      "eval_exact_match_for_task1590_diplomacy_text_generation": 0.0,
+      "eval_rouge1_for_task1590_diplomacy_text_generation": 2.6557,
+      "eval_exact_match_for_task1290_xsum_summarization": 0.0,
+      "eval_rouge1_for_task1290_xsum_summarization": 3.9293,
+      "eval_exact_match_for_task073_commonsenseqa_answer_generation": 30.0,
+      "eval_rouge1_for_task073_commonsenseqa_answer_generation": 30.0,
+      "eval_exact_match_for_task181_outcome_extraction": 11.6279,
+      "eval_rouge1_for_task181_outcome_extraction": 20.2146,
+      "eval_exact_match_for_task002_quoref_answer_generation": 23.0,
+      "eval_rouge1_for_task002_quoref_answer_generation": 38.8917,
+      "eval_exact_match_for_task875_emotion_classification": 35.0,
+      "eval_rouge1_for_task875_emotion_classification": 39.5667,
+      "eval_exact_match_for_task591_sciq_answer_generation": 1.0,
+      "eval_rouge1_for_task591_sciq_answer_generation": 2.9841,
+      "eval_gen_len": 913.6984,
+      "eval_global_step": 1250,
+      "eval_runtime": 163.493,
+      "eval_samples_per_second": 7.321,
+      "eval_steps_per_second": 0.232,
+      "epoch": 10.0
+    },
+    "mmlu_metrics": {
+      "subjects": [
+        "anatomy",
+        "global_facts",
+        "marketing",
+        "philosophy",
+        "formal_logic",
+        "prehistory",
+        "high_school_mathematics",
+        "high_school_physics",
+        "high_school_computer_science"
+      ],
+      "subject_acc": {
+        "anatomy": 0.4740740740740741,
+        "global_facts": 0.31,
+        "marketing": 0.7735042735042735,
+        "philosophy": 0.5112540192926045,
+        "formal_logic": 0.5238095238095238,
+        "prehistory": 0.5339506172839507,
+        "high_school_mathematics": 0.4444444444444444,
+        "high_school_physics": 0.46357615894039733,
+        "high_school_computer_science": 0.66
+      },
+      "mmlu_subject_count": 9,
+      "mmlu_weighted_acc": 0.5311250713877784,
+      "category_acc": {
+        "STEM": 0.491362763915547,
+        "humanities": 0.5229960578186597,
+        "other (business, health, misc.)": 0.5884861407249466
+      },
+      "subcategory_acc": {
+        "math": 0.4444444444444444,
+        "health": 0.4740740740740741,
+        "physics": 0.46357615894039733,
+        "business": 0.7735042735042735,
+        "computer science": 0.66,
+        "philosophy": 0.5148741418764302,
+        "other": 0.31,
+        "history": 0.5339506172839507
+      },
+      "debug_examples": [
+        {
+          "subject": "anatomy",
+          "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+          "label": "A",
+          "pred": "D",
+          "probs": {
+            "A": 0.00023817885085009038,
+            "B": 4.276744647313535e-08,
+            "C": 0.029305249452590942,
+            "D": 0.9704565405845642
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "A \"dished face\" profile is often associated with",
+          "label": "B",
+          "pred": "A",
+          "probs": {
+            "A": 0.9999923706054688,
+            "B": 5.771909400209552e-06,
+            "C": 1.8738645621851902e-06,
+            "D": 2.215932148885713e-08
+          }
+        },
+        {
+          "subject": "anatomy",
+          "question": "Which of the following best describes the structure that collects urine in the body?",
+          "label": "A",
+          "pred": "A",
+          "probs": {
+            "A": 0.9975221753120422,
+            "B": 2.806055135806673e-06,
+            "C": 0.0024726104456931353,
+            "D": 2.4001462861633627e-06
+          }
+        }
+      ]
+    }
+  }
+]
