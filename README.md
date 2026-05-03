@@ -1,4 +1,4 @@
-# RoupCT
+# EoupCT
 
 This repository contains the training and evaluation code for two main paths:
 
